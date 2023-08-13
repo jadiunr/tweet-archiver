@@ -24,10 +24,10 @@ my $all_statuses = [];
 my $max_id;
 my $twitter = Twitter::API->new_with_traits(
     traits              => ['Enchilada', 'RateLimiting'],
-    consumer_key        => $config->{credentials}{consumer_key},
-    consumer_secret     => $config->{credentials}{consumer_secret},
-    access_token        => $config->{credentials}{access_token},
-    access_token_secret => $config->{credentials}{access_token_secret},
+    consumer_key        => $config->{twitter}{credentials}{consumer_key},
+    consumer_secret     => $config->{twitter}{credentials}{consumer_secret},
+    access_token        => $config->{twitter}{credentials}{access_token},
+    access_token_secret => $config->{twitter}{credentials}{access_token_secret},
 );
 
 while (1) {

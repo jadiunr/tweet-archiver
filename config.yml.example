@@ -1,5 +1,10 @@
-credentials:
-    consumer_key:
-    consumer_secret:
-    access_token:
-    access_token_secret:
+twitter:
+    credentials:
+        consumer_key:
+        consumer_secret:
+        access_token:
+        access_token_secret:
+mastodon:
+    domain: mstdn.maud.io
+    credentials:
+        access_token: ioe6k1zxpVtRl-jHldqpgjW1Lm5D_z1zhvxwXKsLsF8
